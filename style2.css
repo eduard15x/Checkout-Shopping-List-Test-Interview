@@ -1,0 +1,138 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    background-color: rgb(209, 222, 223);
+}
+
+ul {
+    list-style: none;
+}
+button {
+    cursor: pointer;
+}
+
+.shopping-page {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 75px;
+    font-weight: bold;
+    color: rgb(55, 55, 55);
+}
+#hr-border {
+    margin: 25px 0px;
+}
+.shopping-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.shopping-products-div {
+    width: 50%;
+}
+.shopping-cart {
+    width: 50%;
+    font-size: 20px;
+    padding: 15px 20px;
+    margin: 0px 40px;
+    background-color: rgb(189, 211, 213);
+    border: 1px solid rgb(154, 170, 172);
+}
+
+
+/* First column items*/
+.shopping-products li {
+    width: 100%;
+    display: flex;
+    font-size: 20px;
+    margin-bottom: 25px;
+    padding: 10px 10px;
+    background-color: rgb(243, 245, 245);
+    box-shadow: 0px 2px 2px 0px gray;
+}
+.product-p {
+    width: 55%;
+}
+.product-p-description {
+    color: white;
+    background-color: gray;
+    border-radius: 50%;
+    padding: 0px 5px;
+    font-size: 14px;
+    margin-left: 8px;
+}
+.price-p {
+    width: 25%;
+}
+.price-p-span {
+    color: dodgerblue;
+}
+.button-add-product {
+    width: 20%;
+    font-size: 20px;
+    border: none;
+    padding: 5px;
+    color: whitesmoke;
+    background-color:rgb(22, 148, 53);
+    border-radius: 5px;
+}
+.button-add-product:hover {
+    background-color:rgb(27, 226, 127);
+}
+
+
+/* Second column items*/
+.products-added-description {
+    display: flex;
+    width: 100%;
+    margin: 25px 0px 15px;
+    font-weight: normal;
+}
+.product-added-name {
+    width: 60%;
+}
+#product-border {
+    border-bottom: 1px solid gray;
+}
+.product-added-quantity {
+    width: 15%;
+    text-align: center;
+}
+.product-added-price {
+    width: 25%;
+    text-align: end;
+}
+.products-from-cart li {
+    display: flex;
+    margin: 20px 0px;
+    padding: 5px 0px;
+}
+#total-price {
+    border-top: 3px solid gray;
+    padding: 15px 0px;
+    text-align: end;
+}
+#button-buy {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    font-size: 30px;
+    font-weight: bold;
+    color: whitesmoke;
+    background-color:rgb(27, 226, 127);
+    padding: 20px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 20px;
+}
+#button-buy:hover {
+    background-color:rgb(18, 167, 93);
+}
+
+
