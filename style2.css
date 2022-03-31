@@ -40,6 +40,7 @@ button {
     font-size: 20px;
     padding: 15px 20px;
     margin: 0px 40px;
+    margin-bottom: 20px;
     background-color: rgb(189, 211, 213);
     border: 1px solid rgb(154, 170, 172);
 }
@@ -106,6 +107,12 @@ button {
 .product-added-price {
     width: 25%;
     text-align: end;
+}
+.remove-product {
+    margin-left: 8px;
+    font-size: 25px;
+    color: red  ;
+    cursor: pointer;
 }
 .products-from-cart li {
     display: flex;
